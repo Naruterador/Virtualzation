@@ -1,0 +1,1 @@
+本仓库主要介绍虚拟化的相关知识，包括docker、containter和容器编排器kubernetes。
