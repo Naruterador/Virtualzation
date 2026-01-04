@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "03.Kubernetes/03.Kubernetes_Modules/04.services服务/04.service_basic.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "04.service_basic"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "03.Kubernetes/03.Kubernetes_Modules/04.services服务/04.service_basic.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for README"
+              "title": "Backlinks for 04.service_basic"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "03.Kubernetes/03.Kubernetes_Modules/04.services服务/04.service_basic.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from README"
+              "title": "Outgoing links from 04.service_basic"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md",
+                "file": "03.Kubernetes/03.Kubernetes_Modules/04.services服务/04.service_basic.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of README"
+              "title": "Outline of 04.service_basic"
             }
           }
         ]
@@ -186,6 +186,27 @@
   },
   "active": "04c63cfecf01e78f",
   "lastOpenFiles": [
+    "03.Kubernetes/03.Kubernetes_Modules/03.deployment/03.deployment_basic.md",
+    "03.Kubernetes/03.Kubernetes_Modules/02.pod/02.pod_basic.md",
+    "03.Kubernetes/03.Kubernetes_Modules/01.namespace/01.namespace_basic.md",
+    "03.Kubernetes/02.Kubernetes_deploy/02.kubernetes_containerd部署.md",
+    "03.Kubernetes/02.Kubernetes_deploy/01.kubernetes_环境拓扑图.md",
+    "03.Kubernetes/01.Kubernetes_Basic/01.kubernetes简介.md",
+    "03.Kubernetes/00.bugfix/01.error.md",
+    "03.Kubernetes/04.Kubernetes_Advance/09.Dashboard/01.Dashboard_deploy.md",
+    "03.Kubernetes/04.Kubernetes_Advance/08.DataStore/01.DataStore.md",
+    "03.Kubernetes/04.Kubernetes_Advance/07.Server/01.Server.md",
+    "03.Kubernetes/04.Kubernetes_Advance/06.Security/02.Security.md",
+    "03.Kubernetes/04.Kubernetes_Advance/06.Security/01.Security.md",
+    "03.Kubernetes/04.Kubernetes_Advance/05.Job/02.Job.md",
+    "03.Kubernetes/04.Kubernetes_Advance/05.Job/01.Job.md",
+    "03.Kubernetes/04.Kubernetes_Advance/04.DaemonSet/01.DaemonSet.md",
+    "03.Kubernetes/04.Kubernetes_Advance/03.HPA/01.Horizontal_Pod_Autoscaler.md",
+    "03.Kubernetes/04.Kubernetes_Advance/02.Deplyment_advance/01.Deployment_advance.md",
+    "03.Kubernetes/04.Kubernetes_Advance/01.pod_advance/03.pod_advance.md",
+    "03.Kubernetes/04.Kubernetes_Advance/01.pod_advance/04.pod_advance.md",
+    "03.Kubernetes/04.Kubernetes_Advance/01.pod_advance/02.pod_advance.md",
+    "03.Kubernetes/04.Kubernetes_Advance/01.pod_advance/01.pod_advance.md",
     "README.md"
   ]
 }
