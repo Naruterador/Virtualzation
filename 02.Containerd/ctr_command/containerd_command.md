@@ -41,17 +41,17 @@
 ---
 ##### ctr日常操作示例:
 
-| 操作示例 | 命令                                                                                                   | 备注      |
-| :------  | :---------------------------------------------------------                                             | :-------- |
-| 查看镜像 | ctr i list                                                                                             |           |
-| 镜像标记 | ctr -n k8s.io i tag registry.cn-hangzhou.aliyuncs.com/google_containers/pause:3.2 k8s.gcr.io/pause:3.2 |           |
-| 删除镜像 | ctr -n k8s.io i rm k8s.gcr.io/pause:3.2      |  |
-| 拉取镜像 | ctr -n k8s.io i pull -k k8s.gcr.io/pause:3.2 |  |
-| 导出镜像 | ctr -n k8s.io i export pause.tar k8s.gcr.io/pause:3.2 | |
-| 导入镜像 | ctr -n k8s.io i import pause.tar | 不支持 build,commit 镜像 |
-| 运行容器 | ctr -n k8s.io run --null-io --net-host -d –env PASSWORD=\$drone_password –mount type=bind,src=/etc,dst=/host-etc,options=rbind:rw –mount type=bind,src=/root/.kube,dst=/root/.kube,options=rbind:rw \$image sysreport bash /sysreport/run.sh | –null-io: 将容器内标准输出重定向到/dev/null | -d: 当task执行后就进行下一步shell命令,如没有选项,则会等待用户输入,并定向到容器内 | –net-host: 主机网络 |
-| 查看容器 | ctr c ls | |
-| 容器日志 |          | |
-| 停止容器 | ctr -n k8s.io tasks kill -a -s 9 {id}| |
-| 删除容器 | ctr -n k8s.io c rm {id} | 先停止容器，再删除 | |
-| 修改tag  | ctr -n k8s.io images tag registry.cn-hangzhou.aliyuncs.com/google_containers/pause-amd64:3.2 k8s.gcr.io/pause:3.2 | |
+| 操作示例  | 命令                                                                                                                                                                                                                                           | 备注                              |                                                  |                 |
+| :---- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------ | ------------------------------------------------ | --------------- |
+| 查看镜像  | ctr i list                                                                                                                                                                                                                                   |                                 |                                                  |                 |
+| 镜像标记  | ctr -n k8s.io i tag registry.cn-hangzhou.aliyuncs.com/google_containers/pause:3.2 k8s.gcr.io/pause:3.2                                                                                                                                       |                                 |                                                  |                 |
+| 删除镜像  | ctr -n k8s.io i rm k8s.gcr.io/pause:3.2                                                                                                                                                                                                      |                                 |                                                  |                 |
+| 拉取镜像  | ctr -n k8s.io i pull -k k8s.gcr.io/pause:3.2                                                                                                                                                                                                 |                                 |                                                  |                 |
+| 导出镜像  | ctr -n k8s.io i export pause.tar k8s.gcr.io/pause:3.2                                                                                                                                                                                        |                                 |                                                  |                 |
+| 导入镜像  | ctr -n k8s.io i import pause.tar                                                                                                                                                                                                             | 不支持 build,commit 镜像             |                                                  |                 |
+| 运行容器  | ctr -n k8s.io run --null-io --net-host -d –env PASSWORD=\$drone_password –mount type=bind,src=/etc,dst=/host-etc,options=rbind:rw –mount type=bind,src=/root/.kube,dst=/root/.kube,options=rbind:rw \$image sysreport bash /sysreport/run.sh | –null-io: 将容器内标准输出重定向到/dev/null | -d: 当task执行后就进行下一步shell命令,如没有选项,则会等待用户输入,并定向到容器内 | –net-host: 主机网络 |
+| 查看容器  | ctr c ls                                                                                                                                                                                                                                     |                                 |                                                  |                 |
+| 容器日志  |                                                                                                                                                                                                                                              |                                 |                                                  |                 |
+| 停止容器  | ctr -n k8s.io tasks kill -a -s 9 {id}                                                                                                                                                                                                        |                                 |                                                  |                 |
+| 删除容器  | ctr -n k8s.io c rm {id}                                                                                                                                                                                                                      | 先停止容器，再删除                       |                                                  |                 |
+| 修改tag | ctr -n k8s.io images tag registry.cn-hangzhou.aliyuncs.com/google_containers/pause-amd64:3.2 k8s.gcr.io/pause:3.2                                                                                                                            |                                 |                                                  |                 |
