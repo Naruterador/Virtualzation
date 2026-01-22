@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "629636a03d4f1fd6",
+        "id": "c5f8a274f2b56121",
         "type": "tabs",
         "children": [
           {
-            "id": "b79318f855242847",
+            "id": "66d0a87de6bbaba7",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "03.Kubernetes/02.Kubernetes_deploy/03.kubernetes_containerd部署_el10.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "03.kubernetes_containerd部署_el10"
             }
           }
         ]
@@ -74,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 299.5
+    "width": 254.5
   },
   "right": {
     "id": "c1c3867ae9ce7fcb",
@@ -180,10 +184,12 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "b79318f855242847",
+  "active": "66d0a87de6bbaba7",
   "lastOpenFiles": [
-    "03.Kubernetes/02.Kubernetes_deploy/03.kubernetes_containerd部署_el10.md",
     "03.Kubernetes/01.Kubernetes_Basic/01.kubernetes简介.md",
+    "03.Kubernetes/04.Kubernetes_Advance/07.Server/01.Server.md",
+    "README.md",
+    "03.Kubernetes/02.Kubernetes_deploy/03.kubernetes_containerd部署_el10.md",
     "03.Kubernetes/02.Kubernetes_deploy/02.kubernetes_containerd部署_el8.md",
     "02.Containerd/ctr_command/containerd_command.md",
     "03.Kubernetes/02.Kubernetes_deploy/ipvs功能添加.md",
@@ -198,7 +204,6 @@
     "03.Kubernetes/00.bugfix/01.error.md",
     "03.Kubernetes/04.Kubernetes_Advance/09.Dashboard/01.Dashboard_deploy.md",
     "03.Kubernetes/04.Kubernetes_Advance/08.DataStore/01.DataStore.md",
-    "03.Kubernetes/04.Kubernetes_Advance/07.Server/01.Server.md",
     "03.Kubernetes/04.Kubernetes_Advance/06.Security/02.Security.md",
     "03.Kubernetes/04.Kubernetes_Advance/06.Security/01.Security.md",
     "03.Kubernetes/04.Kubernetes_Advance/05.Job/02.Job.md",
@@ -207,7 +212,6 @@
     "03.Kubernetes/04.Kubernetes_Advance/03.HPA/01.Horizontal_Pod_Autoscaler.md",
     "03.Kubernetes/04.Kubernetes_Advance/02.Deplyment_advance/01.Deployment_advance.md",
     "03.Kubernetes/04.Kubernetes_Advance/01.pod_advance/03.pod_advance.md",
-    "03.Kubernetes/04.Kubernetes_Advance/01.pod_advance/04.pod_advance.md",
-    "03.Kubernetes/04.Kubernetes_Advance/01.pod_advance/02.pod_advance.md"
+    "03.Kubernetes/04.Kubernetes_Advance/01.pod_advance/04.pod_advance.md"
   ]
 }
