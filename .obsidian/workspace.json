@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "1c47a24d3605e65c",
+        "id": "368b8c0db611aa17",
         "type": "tabs",
         "children": [
           {
-            "id": "9e65e282c9e1fba9",
+            "id": "303e05ccfdd0187e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "03.Kubernetes/02.Kubernetes_deploy/02.kubernetes_containerd部署.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "02.kubernetes_containerd部署"
+              "title": "New tab"
             }
           }
         ]
@@ -53,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#注释掉",
+                "query": "tag:#modprobe",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,8 +70,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -185,14 +180,17 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "9e65e282c9e1fba9",
+  "active": "303e05ccfdd0187e",
   "lastOpenFiles": [
+    "03.Kubernetes/01.Kubernetes_Basic/01.kubernetes简介.md",
+    "03.Kubernetes/02.Kubernetes_deploy/03.kubernetes_containerd部署_el10.md",
+    "03.Kubernetes/02.Kubernetes_deploy/02.kubernetes_containerd部署_el8.md",
+    "02.Containerd/ctr_command/containerd_command.md",
+    "03.Kubernetes/02.Kubernetes_deploy/ipvs功能添加.md",
+    "Untitled.canvas",
     "03.Kubernetes/00.bugfix/03.为ctr 添加代理.md",
     "03.Kubernetes/00.bugfix/02.kubernetes_容器下载.md",
-    "02.Containerd/ctr_command/containerd_command.md",
-    "03.Kubernetes/02.Kubernetes_deploy/02.kubernetes_containerd部署.md",
     "03.Kubernetes/02.Kubernetes_deploy/01.kubernetes_环境拓扑图.md",
-    "03.Kubernetes/01.Kubernetes_Basic/01.kubernetes简介.md",
     "03.Kubernetes/03.Kubernetes_Modules/04.services服务/04.service_basic.md",
     "03.Kubernetes/03.Kubernetes_Modules/03.deployment/03.deployment_basic.md",
     "03.Kubernetes/03.Kubernetes_Modules/02.pod/02.pod_basic.md",
@@ -210,8 +208,6 @@
     "03.Kubernetes/04.Kubernetes_Advance/02.Deplyment_advance/01.Deployment_advance.md",
     "03.Kubernetes/04.Kubernetes_Advance/01.pod_advance/03.pod_advance.md",
     "03.Kubernetes/04.Kubernetes_Advance/01.pod_advance/04.pod_advance.md",
-    "03.Kubernetes/04.Kubernetes_Advance/01.pod_advance/02.pod_advance.md",
-    "03.Kubernetes/04.Kubernetes_Advance/01.pod_advance/01.pod_advance.md",
-    "README.md"
+    "03.Kubernetes/04.Kubernetes_Advance/01.pod_advance/02.pod_advance.md"
   ]
 }
