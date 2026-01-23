@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "ea044c4314251258",
+        "id": "eaf0cd0091e995d5",
         "type": "tabs",
         "children": [
           {
-            "id": "fcaaa6ef8e3a4ecd",
+            "id": "760084c13671f3c4",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -182,8 +182,13 @@
   },
   "active": "8d97681a0a3a7a75",
   "lastOpenFiles": [
-    "03.Kubernetes/02.Kubernetes_deploy/03.kubernetes_containerd部署_el10.md",
+    "03.Kubernetes/03.Kubernetes_Modules/04.services服务/04.service_basic.md",
     "03.Kubernetes/03.Kubernetes_Modules/03.deployment/03.deployment_basic.md",
+    "03.Kubernetes/04.Kubernetes_Advance/01.pod_advance/01.pod_advance.md",
+    "03.Kubernetes/03.Kubernetes_Modules/02.pod/02.pod_basic.md",
+    "03.Kubernetes/03.Kubernetes_Modules/01.namespace/01.namespace_basic.md",
+    "03.Kubernetes/00.bugfix/01.error.md",
+    "03.Kubernetes/02.Kubernetes_deploy/03.kubernetes_containerd部署_el10.md",
     "03.Kubernetes/01.Kubernetes_Basic/01.kubernetes简介.md",
     "03.Kubernetes/04.Kubernetes_Advance/07.Server/01.Server.md",
     "README.md",
@@ -194,10 +199,6 @@
     "03.Kubernetes/00.bugfix/03.为ctr 添加代理.md",
     "03.Kubernetes/00.bugfix/02.kubernetes_容器下载.md",
     "03.Kubernetes/02.Kubernetes_deploy/01.kubernetes_环境拓扑图.md",
-    "03.Kubernetes/03.Kubernetes_Modules/04.services服务/04.service_basic.md",
-    "03.Kubernetes/03.Kubernetes_Modules/02.pod/02.pod_basic.md",
-    "03.Kubernetes/03.Kubernetes_Modules/01.namespace/01.namespace_basic.md",
-    "03.Kubernetes/00.bugfix/01.error.md",
     "03.Kubernetes/04.Kubernetes_Advance/09.Dashboard/01.Dashboard_deploy.md",
     "03.Kubernetes/04.Kubernetes_Advance/08.DataStore/01.DataStore.md",
     "03.Kubernetes/04.Kubernetes_Advance/06.Security/02.Security.md",
@@ -207,7 +208,6 @@
     "03.Kubernetes/04.Kubernetes_Advance/04.DaemonSet/01.DaemonSet.md",
     "03.Kubernetes/04.Kubernetes_Advance/03.HPA/01.Horizontal_Pod_Autoscaler.md",
     "03.Kubernetes/04.Kubernetes_Advance/02.Deplyment_advance/01.Deployment_advance.md",
-    "03.Kubernetes/04.Kubernetes_Advance/01.pod_advance/03.pod_advance.md",
-    "03.Kubernetes/04.Kubernetes_Advance/01.pod_advance/04.pod_advance.md"
+    "03.Kubernetes/04.Kubernetes_Advance/01.pod_advance/03.pod_advance.md"
   ]
 }
